@@ -9,7 +9,7 @@ const Hero = () => {
         <div className='text-center hero'>
             <div className="hero-info">
                 <h1>Genera un proyecto funcional utilizando diferentes agentes interconectados entre sí</h1>
-                <Button onClick={()=>navigate('/chat')} className='hero-info__button' size='large' variant="contained">Comenzar</Button>
+                <Button onClick={()=>navigate('/rubro')} className='hero-info__button' size='large' variant="contained">Comenzar</Button>
             </div>
         </div>
     )
