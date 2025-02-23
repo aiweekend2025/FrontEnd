@@ -1,7 +1,15 @@
+import { Footer } from "./components/footer/footer"
+import Header from "./components/header/header"
+import Hero from "./components/hero/hero"
 
 const Landing = () => {
   return (
-    <div>Lañañaña</div>
+    <>
+    <Header></Header>
+    <Hero></Hero>
+    <Footer></Footer>
+
+    </>
   )
 }
 
