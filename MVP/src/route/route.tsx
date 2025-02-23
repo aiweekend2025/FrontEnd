@@ -7,6 +7,7 @@
 import {createBrowserRouter} from "react-router-dom"
 import Chat from "../page/chat/chat";
 import Landing from "../page/landing/landing";
+import Select from "../page/select/select";
 
 /**
  * @constant
@@ -23,6 +24,11 @@ const router = createBrowserRouter([
     {
         path:"chat",
         element: <Chat/>,
+        errorElement: <div>Ups! Algo salió mal</div>
+    },
+    {
+        path:"rubro",
+        element:<Select/>,
         errorElement: <div>Ups! Algo salió mal</div>
     }
 ])
